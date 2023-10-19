@@ -1,11 +1,10 @@
 # Developing a Simple Webserver
 
-Name:KANDUKURI GOUTHAM
+NAME:K.GOUTHAM
 
 ID:23008975
 
 DEPT:IOT
-phn no:8317555686
 
 # AIM:
 
@@ -33,32 +32,30 @@ Serving the HTML pages.
 
 Testing the webserver
 # PROGRAM:
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 content = """
 <html>
 <head>
-<body>
-<h1>Welcome</h1>
-</body>
 </head>
+<body>
+<h1>Top Five Web Application Development Frameworks</h1>
+<h2>1.Django</h2>
+<h3>2.MEAN Stack</h3>
+<h4>3.React</h4>
+<h5>4.Ruby on Rails</h5>
+<h6>5.Angular</h6>
+</body>
 </html>
 """
+```
 
-class HelloHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        print("Get request recieved")
-        self.send_response(200)
-        self.send_header('Content-type','text/html;charset=utf-8')
-        self.end_headers()
-        self.wfile.write(content.encode())
 
-print("This is my webserver")
-server_address = ('',80)
-httpd = HTTPServer(server_address,HelloHandler)
-httpd.serve_forever()
 # OUTPUT:
-![Alt Text](images/screenshot2.jpg)
-# RESULT:
+![Alt text](images/webserver2.jpg)
 
-The program is executed succesfully
+# RESULT:
+The program is executed succesfully.
+
+
