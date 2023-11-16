@@ -53,7 +53,7 @@ content = """
 
 
 # OUTPUT:
-![Alt text](images/webserver2.jpg)
+![WhatsApp Image 2023-11-16 at 03 28 33_66689168](https://github.com/Goutham2306/Web_server/assets/138971154/6dfa91b0-0bdc-4a18-a432-5b3a80dd1ea7)
 
 # RESULT:
 
